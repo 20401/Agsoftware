@@ -1,6 +1,6 @@
 <?php
 
-namespace Omnipro\DescargaDeCatalogos\Setup\Patch\Data;
+namespace Agsoftware\Prueba3\Setup\Patch\Data;
 
 class PaginasV1 implements \Magento\Framework\Setup\Patch\DataPatchInterface
 {
