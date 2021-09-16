@@ -1,8 +1,8 @@
 <?php
 
-namespace AgSoftware\Prueba5\Setup\Patch\Data;
+namespace AgSoftware\Menu\Setup\Patch\Data;
 
-class quienessomos2 implements \Magento\Framework\Setup\Patch\DataPatchInterface
+class Menuv2 implements \Magento\Framework\Setup\Patch\DataPatchInterface
 {
     /**
      * CreateHeaderBlock constructor.
@@ -30,10 +30,10 @@ class quienessomos2 implements \Magento\Framework\Setup\Patch\DataPatchInterface
         $this->moduleDataSetup->getConnection()->startSetup();
 
         $block_data_head= [
-            'title' => 'Quienes Somos ',
-            'identifier' => 'quienes somos',
+            'title' => 'Menu',
+            'identifier' => 'Menu',
             'is_active' => 1,
-            'content' => file_get_contents(__DIR__.'/html/quienessomos.html'),
+            'content' => file_get_contents(__DIR__.'/html/menu.html'),
         ];
         $this->makeBackup($block_data_head);
         $block_head = $this->block->create();

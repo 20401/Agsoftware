@@ -1,8 +1,8 @@
 <?php
 
-namespace DonPollo\Preguntas\Setup\Patch\Data;
+namespace AgSoftware\Preguntas\Setup\Patch\Data;
 
-class aprobacion implements \Magento\Framework\Setup\Patch\DataPatchInterface
+class preguntasf implements \Magento\Framework\Setup\Patch\DataPatchInterface
 {
     /**
      * CreateHeaderBlock constructor.
