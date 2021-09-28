@@ -1,0 +1,415 @@
+& when (@media-common =true) {
+ 
+.catalog-product-view {
+    .sku{
+        background-color:red;
+    }
+    .block-content{
+        background-color: rgba(255, 0, 0, 0.349);
+    }}
+//pagina dias especiales amor y amistad//
+
+.cms-amor-amistad{
+    /*en este se crea un corazon latiendo */
+    .corazon {
+        animation: latido 1s infinite;
+        background-color: red;
+        display: inline-block;
+        height: 50px;
+        margin: 0 10px;
+        top: 0;
+        transform: rotate(-45deg);
+        position: absolute;
+        left: 45%;
+        top: 45%;
+        width: 50px;
+
+    }
+
+    .corazon:before,
+    .corazon:after {
+        content: "";
+        background-color: red;
+        border-radius: 50%;
+        height: 50px;
+        position: absolute;
+        width: 50px;
+    }
+
+    .corazon:before {
+        top: -25px;
+        left: 0;
+    }
+
+    .corazon:after {
+        left: 25px;
+        top: 0;
+    }
+
+    @keyframes latido {
+        0% {
+            transform: scale(1) rotate(-45deg);
+        }
+
+        20% {
+            transform: scale(1.25) rotate(-45deg);
+        }
+
+        40% {
+            transform: scale(1.5) rotate(-45deg);
+        }
+    }
+
+
+
+    /* aqui estan las imagenes normalitas*/
+    .image1 {
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        /*display: block;/*/
+        transform-style: unset;
+        transition-timing-function: ease-in-out;
+        border-radius: 20px;
+        vertical-align: bottom;
+        box-shadow: inset;
+    }
+
+    
+
+    
+
+    body {
+        background-image: url(https://i.imgur.com/aHaQ2Kh.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+    .torzo {
+        height: 1200px;
+    }
+
+    h1 :hover {
+        font-size: 3.5em;
+        transform-style: unset;
+        transition-timing-function: ease-in-out;
+    }
+
+    .tex {
+        background-color: rgba(20, 24, 231, 0.5);
+        height: 200px;
+        width: 200px;
+        border-style: solid 2px;
+        display: block;
+        float: left;
+        border-radius: 15px;
+       
+
+
+    }
+
+}
+
+
+
+
+  // preguntas frecuentes//
+html{
+font-size: 62.5%;
+}
+.titulos {
+font-size: 40px;
+display: flex;
+justify-content: center;
+margin: 10px;
+padding: 5px;
+
+}
+.Preguntas {
+font-family: 'Times New Roman', Times, serif;
+font-size: 29px;
+margin: 10px;
+background-color: blue;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+
+}
+.Respuesta {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-top: 20px;
+display: flex;
+}
+@media (min-width: 500px){
+
+.titulo {
+    width: 60%;
+}
+
+.Preguntas {
+    width: 80%;
+}
+.Respuesta {
+    width: 40%;
+}
+}
+@media (min-width: 700px){
+.titulo {
+width: 50%;
+}
+.Preguntas {
+width: 100%;
+}
+.Respuesta {
+width: 55%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   // aqui esta la vision //
+        #logo {
+            width: 20%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            float: right;
+
+
+        }
+
+        .titulo {
+            font-size: 4em;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            text-align:center;
+
+        }
+
+        header
+         {
+            background-color: #0abdcaaf;
+            border-style: 20px;
+            border-radius: 20px;
+            padding: 5px;
+            text-align: center;
+            border: 1px solid;
+            padding: 10px;
+            box-shadow: 5px 10px #888888;
+        }
+
+        body {
+            background-color: rgb(248, 251, 252);
+
+        }
+
+        li {
+            transition: all 0.4s linear;
+        }
+
+        li:hover {
+            transform: scale(1.2);
+            border-radius: 10px;
+        }
+
+        .torzo {
+            margin-left: auto;
+            margin-right: auto;
+            display: block ;
+            text-align:center;
+            height: 80%;
+            width: 50%;
+        }
+
+        #lo2 {
+
+            width: 250px;
+            height: 130px;
+            border-radius: 45px;
+
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // quieen es somos//
+        * {
+
+            margin: 0;
+            padding: 0;
+
+        }
+
+
+
+        .titulo {
+            font-size: 3em;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            text-align: center;
+
+        }
+
+        .column main{
+            background-color: #0abdcaaf;
+            border-style: 20px;
+            border-radius: 20px;
+            padding: 5px;
+            text-align: center;
+            border: 1px solid;
+            padding: 10px;
+            box-shadow: 5px 10px #888888;
+        }
+
+        body {
+            background-color: rgb(248, 251, 252);
+
+        }
+
+        p:hover {
+            
+            transform: scale(1.2);
+            border-radius: 10px;
+        }
+
+        .text-center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            text-align: justify;
+
+            width: 60%;
+        }
+    
+
+
+
+
+
+
+
+    // este es el menu y sus configuraciones primarias//
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    header {
+        width: 100%;
+        background-color: rgba(11, 14, 19, 0.863);
+    }
+
+    #btn-Menu {
+        display: none;
+
+    }
+
+    .menu ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu li a {
+        display: block;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .menu li a:hover {
+        background-color: rgba(189, 214, 209, 0.829);
+        color: rgb(16, 17, 17);
+        justify-content: center;
+
+    }
+
+    .menu li {
+        border-right: 2px solid #eee;
+        
+    }
+
+    header label {
+        display: none;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        border-right: 1px solid #eee;
+    }
+
+    header label:hover {
+        cursor: pointer;
+        background: rgba(11, 14, 19, 0.493);
+    }
+
+    @media (max-width: 768px) {
+        header label {
+            display: block;
+        }
+        .menu {
+            position: absolute;
+            background-color: rgba(11, 14, 19, 0.863);
+            width:60%;
+            margin-left: -70%;
+            transition:all 1s;
+        
+        }
+        .menu ul{
+            flex-direction: column;
+        }
+        .menu li{
+            border-top: 1px solid #ccc;
+        }
+        #btn-Menu:checked ~ .menu{
+            margin: 0;
+        }
+    }
+
+   
+}
+
+

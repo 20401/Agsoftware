@@ -1,3 +1,22 @@
+<html xmlns="http://www.w3.org/1999/xhtml"></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -9,9 +28,11 @@
 
     }
 
-    header {
+    .menu {
         width: 100%;
-        background-color: rgba(11, 14, 19, 0.863);
+border-radius: 10px;
+    
+    color: #fff;
     }
 
     #btn-Menu {
@@ -38,11 +59,15 @@
         background-color: rgba(189, 214, 209, 0.829);
         color: rgb(16, 17, 17);
         justify-content: center;
+transition:all 0.4s linear;
+        transform: scale(0.8);
 
     }
 
     .menu li {
         border-right: 2px solid #eee;
+font-size: 2em;
+
         
     }
 
@@ -83,17 +108,35 @@
     }
 </style>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <body>
     <header>
         <input type="checkbox" id="btn-Menu">
         <label for="btn-Menu"><img src="/ico.png" alt="menu" srcset=""></label>
         <nav class="menu">
             <ul>
-                <li><a href="/Home">Home</li>
-                <li><a href="/Mision">Mision</li>
-                <li><a href="/Vision">Vision</li>
-                <li><a href="/Preguntasf">Preguntas Frecuentes</li>
-                <li><a href="/Contactenos">Contactenos</li>
+                <li><a href="/home">Home</li>
+                <li><a href="/mision">Mision</li>
+                <li><a href="/vision">Vision</li>
+                <li><a href="/preguntasf">Preguntas Frecuentes</li>
+                <li><a href="/contactenos">Contactenos</li>
             </ul>
         </nav>
     </header>

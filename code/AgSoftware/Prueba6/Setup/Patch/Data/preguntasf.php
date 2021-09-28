@@ -1,8 +1,8 @@
 <?php
 
-namespace AgSoftware\Menu\Setup\Patch\Data;
+namespace AgSoftware\Prueba6\Setup\Patch\Data;
 
-class Menuv2 implements \Magento\Framework\Setup\Patch\DataPatchInterface
+class preguntasf implements \Magento\Framework\Setup\Patch\DataPatchInterface
 {
     /**
      * CreateHeaderBlock constructor.
@@ -30,10 +30,10 @@ class Menuv2 implements \Magento\Framework\Setup\Patch\DataPatchInterface
         $this->moduleDataSetup->getConnection()->startSetup();
 
         $block_data_head= [
-            'title' => 'Menu',
-            'identifier' => 'Menu',
+            'title' => 'Preguntas frecuentes',
+            'identifier' => 'preguntasf',
             'is_active' => 1,
-            'content' => file_get_contents(__DIR__.'/html/menu.html'),
+            'content' => file_get_contents(__DIR__.'/html/preguntasf.html'),
         ];
         $this->makeBackup($block_data_head);
         $block_head = $this->block->create();
